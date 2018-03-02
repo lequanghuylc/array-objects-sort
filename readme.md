@@ -22,7 +22,7 @@ Usage:
 ```javascript
     const SortList = require("array-objects-sort");
 
-    const options = {
+    const options = [
         {
             key: "a",
             priority: ["value_of_a_will_sort_at_top", "value_of_a_behind", "value_of_a_behind", ...]
@@ -35,7 +35,7 @@ Usage:
             key: "c",
             priority: ["value_of_c", ["this_two_value", "will_be_treated_as_equal_while_sorting"] , ...]
         },
-    }
+    ];
 
     const thisSort = new SortList(options);
     const newSortedList = thisSort.sort(list);
