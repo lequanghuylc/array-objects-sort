@@ -1,0 +1,25 @@
+{
+  "name": "array-objects-sort",
+  "version": "0.1.0",
+  "description": "Sort array of objects with many criterias",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lequanghuylc/array-objects-sort.git"
+  },
+  "keywords": [
+    "javascript",
+    "sort",
+    "array",
+    "object"
+  ],
+  "author": "Le Quang Huy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lequanghuylc/array-objects-sort/issues"
+  },
+  "homepage": "https://github.com/lequanghuylc/array-objects-sort#readme"
+}
